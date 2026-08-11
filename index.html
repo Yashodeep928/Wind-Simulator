@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wind Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="app">
+
+        <h1>Wind Simulator</h1>
+
+        <section class="scene">
+
+            <div id="tree" class="tree">
+                <div class="leaves">
+
+                </div>
+            </div>
+
+            <div class="ground">
+
+            </div>
+
+        </section>
+
+
+        <section class="controls">
+            <label for="windRange">
+                Wind Strength:
+                <span id="windValue">0</span>
+            </label>
+
+            <input type="range" id="windRange" min="0" max="100" value="0">
+
+            <div class="buttons">
+                <button id="startWind">Start Wind</button>
+                <button id="stopWind">Stop Wind</button>
+            </div>
+        </section>
+     
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
